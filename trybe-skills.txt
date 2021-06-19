@@ -6,3 +6,5 @@ O que eu vou aprender na Trybe:
 - HTML
 - CSS
 - JavaScript
+- DOM
+- Eventos
