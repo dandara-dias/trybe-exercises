@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover{
+    background-color: wheat;
+}
+
+li:active{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol, ul{
+    list-style: none;
+}

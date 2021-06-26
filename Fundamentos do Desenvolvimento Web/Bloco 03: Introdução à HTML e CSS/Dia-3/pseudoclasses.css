@@ -1,0 +1,30 @@
+div:hover{
+    border-style: dashed;
+}
+
+div:nth-of-type(1){
+    color: red;
+    background-color: turquoise;
+    font-style: italic;
+}
+
+div:nth-of-type(2){
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div:nth-of-type(3){
+    color: green;
+    font-size: 40px;
+    font-style: italic;
+}
+
+div:nth-of-type(4){
+    color: purple;
+    font-weight: bolder;
+}
+
+div:nth-of-type(5){
+    color: violet;
+    font-style: italic;
+}
