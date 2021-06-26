@@ -5,3 +5,7 @@ ol li{
 ol li.par{
     color: green;
 }
+
+ol li.impar{
+    text-transform: uppercase;
+}
