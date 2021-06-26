@@ -22,3 +22,7 @@ h1.italico{
 li{
     font-size: 20px;
 }
+
+li em{
+    font-weight: bold;
+}
