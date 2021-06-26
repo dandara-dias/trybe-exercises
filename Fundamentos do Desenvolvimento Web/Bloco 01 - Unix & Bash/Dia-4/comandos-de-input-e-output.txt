@@ -1,0 +1,15 @@
+touch skills2.txt
+cat >> skills2.txt
+cat >> skills2.txt
+sort < skills2.txt
+cat skills2.txt | wc -l
+sort < skills2.txt | head -n 3 > top_skills.txt
+touch phrases2.txt
+cat >> phrases2.txt
+grep br phrases2.txt | wc -l
+grep -v br phrases.txt | wc -l
+cat >> phrases2.txt
+touch bunch_of_things.txt
+cat phrases2.txt > bunch_of_things.txt
+cat countries.txt >> bunch_of_things.txt
+sort bunch_of_things.txt -o bunch_of_things.txt
