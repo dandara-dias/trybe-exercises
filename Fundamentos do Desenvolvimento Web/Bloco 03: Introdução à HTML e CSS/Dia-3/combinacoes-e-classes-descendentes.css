@@ -1,3 +1,7 @@
 ol li{
     background-color: yellow;
 }
+
+ol li.par{
+    color: green;
+}
