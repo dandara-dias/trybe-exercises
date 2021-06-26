@@ -33,8 +33,10 @@ ul.linguagens li:nth-of-type(1){
 
 ul.linguagens li:nth-of-type(2){
     color: blue;
+    background-color: pink;
 }
 
 ul.linguagens li:nth-of-type(3){
     color: blue;
+    background-color: pink;
 }
