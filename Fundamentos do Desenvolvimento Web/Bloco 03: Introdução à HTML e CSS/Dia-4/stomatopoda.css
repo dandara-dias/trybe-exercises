@@ -1,3 +1,14 @@
 header{
     text-align: center;
 }
+
+nav{
+    border-style: groove;
+    display: inline-block;
+    margin: 20px;
+}
+
+ul li{
+    display: inline-block;
+    width: 200px;
+}
