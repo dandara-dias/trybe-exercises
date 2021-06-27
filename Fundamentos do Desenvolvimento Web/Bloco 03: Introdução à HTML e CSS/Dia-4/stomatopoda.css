@@ -16,3 +16,15 @@ ul li{
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+article{
+    margin-left: 20px;
+}
+
+table tr td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
