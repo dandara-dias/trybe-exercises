@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left: 525px;
+}
+
+.second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    float: left;
+    margin-left: 335px;
+}
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    margin-left: 640px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+h3{
+    text-align: center;
+}
+
+ul.prizes li{
+    text-align: center;
+    display: inline;
+    
+}
+
+.primeiro{
+    margin-left: 325px;   
+}
+.segundo{
+    margin-right: 325px;
+}
