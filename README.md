@@ -12,7 +12,7 @@ Trybe is a web development school that has a genuine commitment to the professio
 
 ***
 
-## Fundamentos do Desenvolvimento Web / # <em>Web Development 101</em>
+## Fundamentos do Desenvolvimento Web / <em>Web Development 101</em>
 
 ### Bloco 01: Unix & Bash
 ✔️1.1: Fundamentos do desenvolvimento web<br>
@@ -25,10 +25,10 @@ Trybe is a web development school that has a genuine commitment to the professio
 ✔️2.2: Git & GitHub - Entendendo os comandos / <em>understanding the commands</em><br>
 ✔️2.3: Internet - Entendendo como ela funciona /<em>understanding how it works</em><br>
 
-### ⏳ Bloco 03: Introdução à HTML e CSS / # <em>HTML and CSS 101</em>
+### ⏳ Bloco 03: Introdução à HTML e CSS / <em>HTML and CSS 101</em>
 ✔️3.1: Introdução - HTML & CSS <br>
 ✔️3.2: HTML & CSS - Estruturas de página / <em>page structure</em><br>
 ✔️3.3: HTML & CSS - Primeiros passos em CSS / <em>CSS: first steps</em><br>
 ✔️3.4: HTML & CSS - Seletores e posicionamento / <em>selector and positioning</em><br>
-3.5: HTML Semântico / <em>semantic HTML</em><br>
+✔️3.5: HTML Semântico / <em>semantic HTML</em><br>
 3.6: Projeto - Lessons Learned
