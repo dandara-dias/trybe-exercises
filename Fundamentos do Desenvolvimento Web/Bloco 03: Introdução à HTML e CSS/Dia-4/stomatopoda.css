@@ -12,3 +12,7 @@ ul li{
     display: inline-block;
     width: 200px;
 }
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
