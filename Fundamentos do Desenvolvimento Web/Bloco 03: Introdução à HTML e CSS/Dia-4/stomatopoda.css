@@ -44,3 +44,10 @@ img{
 body{
     background-color: #D4E09B;
 }
+
+aside{
+    text-align: right;
+    margin-left: 850px;
+    border-style: groove;
+    display: inline-block;
+}
