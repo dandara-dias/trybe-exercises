@@ -32,3 +32,11 @@ Trybe is a web development school that has a genuine commitment to the professio
 ✔️3.4: HTML & CSS - Seletores e posicionamento / <em>selector and positioning</em><br>
 ✔️3.5: HTML Semântico / <em>semantic HTML</em><br>
 3.6: Projeto - Lessons Learned
+
+### Bloco 04: Introdução à JavaScript e Lógica de Programação / <em>Introduction to JavaScript and Programming Logic</em>
+4.1: Introdução - JavaScript <br>
+4.2: JavaScript - Primeiros passos / <em>first steps</em><br>
+4.3: JavaScript - Array e loop for <br>
+4.4: JavaScript - Lógica de programação e algoritmos / <em>programming logic and algorithms</em><br>
+4.5: JavaScript - Objetos e funções / <em>objects and functions</em><br>
+4.6: Projeto - Playground Functions
