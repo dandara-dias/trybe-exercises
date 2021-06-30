@@ -34,7 +34,7 @@ Trybe is a web development school that has a genuine commitment to the professio
 3.6: Projeto - Lessons Learned
 
 ### Bloco 04: Introdução à JavaScript e Lógica de Programação / <em>Introduction to JavaScript and Programming Logic</em>
-4.1: Introdução - JavaScript <br>
+✔️4.1: Introdução - JavaScript <br>
 4.2: JavaScript - Primeiros passos / <em>first steps</em><br>
 4.3: JavaScript - Array e loop for <br>
 4.4: JavaScript - Lógica de programação e algoritmos / <em>programming logic and algorithms</em><br>
