@@ -48,3 +48,7 @@ for(let i=0; i<25; i++){
     array.push(i+1);
     console.log(array[i]);
 }
+
+for(let i=0; i<25; i++){
+    console.log(array[i]/2);
+}
