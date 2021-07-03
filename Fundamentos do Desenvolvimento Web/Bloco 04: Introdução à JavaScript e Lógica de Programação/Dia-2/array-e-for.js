@@ -1,4 +1,5 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let array = [];
 let soma=0, maior=0, cont=0, menor=numbers[0];
 let mediaAritmetica;
 
@@ -42,3 +43,8 @@ for(let i=0; i < numbers.length; i++){
 }
 
 console.log(menor);
+
+for(let i=0; i<25; i++){
+    array.push(i+1);
+    console.log(array[i]);
+}
