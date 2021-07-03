@@ -1,5 +1,5 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let soma=0, maior=0, cont=0;
+let soma=0, maior=0, cont=0, menor=numbers[0];
 let mediaAritmetica;
 
 for(let i=0; i < numbers.length; i++){
@@ -34,3 +34,11 @@ if(cont>0){
 } else{
     console.log("nenhum valor ímpar encontrado");
 }
+
+for(let i=0; i < numbers.length; i++){
+    if(numbers[i]<menor){
+        menor = numbers[i];
+    }
+}
+
+console.log(menor);
