@@ -37,9 +37,23 @@ function indiceMenorValor(array){
     return console.log(index);
 }
 
+function maiorNome(array){
+    let maior=0, name;
+
+    for(let nome of array){
+        if(nome.length>maior){
+            maior = nome.length;
+            name = nome;
+        }
+    }
+
+    return console.log(name);
+}
+
 
 ////////////////////////////////////////MAIN//////////////////////////////////////////////////
 
 palindromo("arara");
 indiceMaiorValor([2, 3, 6, 7, 10, 1]);
 indiceMenorValor([2, 4, 6, 7, 10, 0, -3]);
+maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']);
