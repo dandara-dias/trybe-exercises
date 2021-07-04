@@ -7,3 +7,7 @@ let info = {
 
   console.log(`Bem vinda, ${info.personagem}`);
   console.table(info);
+
+  for(let chave in info){
+      console.log(chave);
+  }
