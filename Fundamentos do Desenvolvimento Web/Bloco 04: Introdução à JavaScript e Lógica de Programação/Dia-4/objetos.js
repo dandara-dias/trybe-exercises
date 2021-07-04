@@ -11,3 +11,7 @@ let info = {
   for(let chave in info){
       console.log(chave);
   }
+
+  for(let key in info){
+      console.log(info[key]);
+  }
