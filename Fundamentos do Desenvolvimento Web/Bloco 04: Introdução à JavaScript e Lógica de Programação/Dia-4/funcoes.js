@@ -25,8 +25,21 @@ function indiceMaiorValor(array){
     return console.log(index);
 }
 
+function indiceMenorValor(array){
+    let menor=0, index;
+
+    for(let i=0; i<array.length; i++){
+        if(array[i]<=menor){
+            menor = array[i];
+            index = i;
+        }
+    }
+    return console.log(index);
+}
+
 
 ////////////////////////////////////////MAIN//////////////////////////////////////////////////
 
 palindromo("arara");
 indiceMaiorValor([2, 3, 6, 7, 10, 1]);
+indiceMenorValor([2, 4, 6, 7, 10, 0, -3]);
