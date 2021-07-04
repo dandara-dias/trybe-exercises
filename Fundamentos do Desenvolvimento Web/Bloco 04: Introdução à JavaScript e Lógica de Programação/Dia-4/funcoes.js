@@ -75,6 +75,16 @@ function repete(array){
     return console.log(array[index]);
 }
 
+function somatorio(numero){
+    let sum=0;
+    
+    for(let i=1; i<=numero; i++){
+        sum +=i;
+    }
+
+    return console.log(sum);
+}
+
 
 ////////////////////////////////////////MAIN//////////////////////////////////////////////////
 
@@ -83,3 +93,4 @@ indiceMaiorValor([2, 3, 6, 7, 10, 1]);
 indiceMenorValor([2, 4, 6, 7, 10, 0, -3]);
 maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']);
 repete([2, 3, 2, 5, 8, 2, 3]);
+somatorio(5);
