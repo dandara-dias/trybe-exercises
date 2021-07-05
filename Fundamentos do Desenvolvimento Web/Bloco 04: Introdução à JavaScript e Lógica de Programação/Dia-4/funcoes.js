@@ -85,6 +85,22 @@ function somatorio(numero){
     return console.log(sum);
 }
 
+function verificaFimPalavra(word, ending){
+    let cont=0;
+
+    for(let i=0; i<ending.length; i++){
+        if(ending[ending.length-1-i] == word[word.length-1-i]){
+            cont++;
+        } else{
+            return console.log("false");
+        }
+    }
+
+    if(cont = ending.length){
+        return console.log("true");
+    }
+}
+
 
 ////////////////////////////////////////MAIN//////////////////////////////////////////////////
 
@@ -94,3 +110,4 @@ indiceMenorValor([2, 4, 6, 7, 10, 0, -3]);
 maiorNome(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']);
 repete([2, 3, 2, 5, 8, 2, 3]);
 somatorio(5);
+verificaFimPalavra("trybe", "be");
