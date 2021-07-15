@@ -85,6 +85,17 @@
       imagem.src = "https://picsum.photos/200";
       imagem.className = "small-image";
       section2.appendChild(imagem);
+
+      let unordered = document.createElement("ul");
+      let lista = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
+      
+      for(let i=0; i<lista.length; i++){
+          let item = document.createElement("li");
+          item.innerHTML = lista[i];
+          unordered.appendChild(item);
+          console.log(item);
+      }
+      section3.appendChild(unordered);
     </script>
   </body>
 </html>
