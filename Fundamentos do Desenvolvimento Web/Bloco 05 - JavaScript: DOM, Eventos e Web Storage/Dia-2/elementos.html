@@ -88,7 +88,7 @@
 
       let unordered = document.createElement("ul");
       let lista = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"];
-      
+
       for(let i=0; i<lista.length; i++){
           let item = document.createElement("li");
           item.innerHTML = lista[i];
@@ -96,6 +96,13 @@
           console.log(item);
       }
       section3.appendChild(unordered);
+
+      let primeiraH3 = document.createElement("h3");
+      main.appendChild(primeiraH3);
+      let segundaH3 = document.createElement("h3");
+      main.appendChild(segundaH3);
+      let terceiraH3 = document.createElement("h3");
+      main.appendChild(terceiraH3);
     </script>
   </body>
 </html>
