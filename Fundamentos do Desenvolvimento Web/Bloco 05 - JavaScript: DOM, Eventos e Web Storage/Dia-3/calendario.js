@@ -60,5 +60,14 @@ function corDeFundo(){
     }
 }
 
+function recebeSexta(sexta){
+    let botao = document.createElement("button");
+    let classe = document.querySelector(".buttons-container");
+    botao.innerHTML = sexta;
+    botao.id="btn-friday";
+    classe.appendChild(botao);
+}
+
 criaDias();
 recebeFeriado("Feriados");
+recebeSexta("Sexta-feira");
