@@ -45,5 +45,20 @@ function recebeFeriado(feriados){
     classe.appendChild(botao);
 }
 
+let botaoFeriados = document.querySelector(".buttons-container");
+botaoFeriados.addEventListener("click", corDeFundo);
+
+function corDeFundo(){
+    let feriado = document.querySelectorAll(".holiday");
+
+    for(let i=0; i<feriado.length; i++){
+        if(feriado[i].style.backgroundColor == "white"){
+            feriado[i].style.backgroundColor = "rgb(238,238,238)";
+        } else{
+            feriado[i].style.backgroundColor = "white";
+        }
+    }
+}
+
 criaDias();
 recebeFeriado("Feriados");
