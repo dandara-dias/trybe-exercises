@@ -37,4 +37,13 @@ function createDaysOfTheWeek() {
     }
 }
 
+function recebeFeriado(feriados){
+    let botao = document.createElement("button");
+    let classe = document.querySelector(".buttons-container");
+    botao.innerHTML = feriados;
+    botao.id = "btn-holiday";
+    classe.appendChild(botao);
+}
+
 criaDias();
+recebeFeriado("Feriados");
