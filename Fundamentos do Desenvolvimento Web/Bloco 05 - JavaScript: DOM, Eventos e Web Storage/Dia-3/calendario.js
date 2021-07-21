@@ -108,3 +108,14 @@ function adicionaTarefa(task){
 }
 
 adicionaTarefa("cozinhar ");
+
+function adicionaCor(color){
+    let cor = document.createElement("div");
+    let divTarefas = document.querySelector(".my-tasks");
+
+    cor.className = "task";
+    cor.style.backgroundColor = color;
+    divTarefas.appendChild(cor);
+}
+
+adicionaCor("green");
