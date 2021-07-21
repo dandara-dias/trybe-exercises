@@ -99,3 +99,12 @@ function zoomIn(event){
 function zoomOut(event){
     event.target.style.fontSize = "1em";
 }
+
+function adicionaTarefa(task){
+    let tarefa = document.createElement("span");
+    let divTarefas = document.querySelector(".my-tasks");
+    tarefa.innerText = task;
+    divTarefas.appendChild(tarefa);
+}
+
+adicionaTarefa("cozinhar ");
