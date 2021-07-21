@@ -37,6 +37,8 @@ function createDaysOfTheWeek() {
     }
 }
 
+criaDias();
+
 function recebeFeriado(feriados){
     let botao = document.createElement("button");
     let classe = document.querySelector(".buttons-container");
@@ -45,7 +47,9 @@ function recebeFeriado(feriados){
     classe.appendChild(botao);
 }
 
-let botaoFeriados = document.querySelector(".buttons-container");
+recebeFeriado("Feriados");
+
+let botaoFeriados = document.querySelector("#btn-holiday");
 botaoFeriados.addEventListener("click", corDeFundo);
 
 function corDeFundo(){
@@ -63,11 +67,25 @@ function corDeFundo(){
 function recebeSexta(sexta){
     let botao = document.createElement("button");
     let classe = document.querySelector(".buttons-container");
-    botao.innerHTML = sexta;
+    botao.innerText = sexta;
     botao.id="btn-friday";
     classe.appendChild(botao);
 }
 
-criaDias();
-recebeFeriado("Feriados");
 recebeSexta("Sexta-feira");
+
+let botaoSexta = document.querySelector("#btn-friday");
+botaoSexta.addEventListener("click", mudaTexto);
+
+function mudaTexto(){
+    let diasSexta = [4, 11, 18, 25];
+    let sexta = document.querySelectorAll(".friday");
+
+    for(let i=0; i<sexta.length; i++){
+        if(sexta[i].innerText != "Sextou"){
+            sexta[i].innerText = "Sextou";
+        } else{
+            sexta[i].innerText = diasSexta[i];
+        }
+    }
+}
