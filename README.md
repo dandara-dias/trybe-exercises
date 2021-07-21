@@ -14,29 +14,40 @@ Trybe is a web development school that has a genuine commitment to the professio
 
 ## Fundamentos do Desenvolvimento Web / <em>Web Development 101</em>
 
-### Bloco 01: Unix & Bash
-✔️1.1: Fundamentos do desenvolvimento web<br>
-✔️1.2: Introdução - Unix & Shell<br>
-✔️1.3: Unix & Bash - parte 1<br>
-✔️1.4: Unix & Bash - parte 2<br>
+### Bloco 01: Unix & Bash / <em> 01: Unix & Bash</em>
+✔️1.1: Fundamentos do desenvolvimento web / <em>web development 101</em><br>
+✔️1.2: Introdução - Unix & Shell / <em>introduction - unix & shell</em><br>
+✔️1.3: Unix & Bash - parte 1 / <em>unix & bash - part 1</em><br>
+✔️1.4: Unix & Bash - parte 2 / <em>unix & bash - part 2</em><br>
 
-### Bloco 02: Git, GitHub e Internet
+### Bloco 02: Git, GitHub e Internet / <em>02: Git, GitHub and Internet</em>
 ✔️2.1: Git & GitHub - O que é e para que serve / <em>what it is and what it is for</em><br>
 ✔️2.2: Git & GitHub - Entendendo os comandos / <em>understanding the commands</em><br>
-✔️2.3: Internet - Entendendo como ela funciona /<em>understanding how it works</em><br>
+✔️2.3: Internet - Entendendo como ela funciona / <em>understanding how it works</em><br>
 
-### ⏳ Bloco 03: Introdução à HTML e CSS / <em>HTML and CSS 101</em>
+### Bloco 03: Introdução à HTML e CSS / <em>03: HTML and CSS 101</em>
 ✔️3.1: Introdução - HTML & CSS <br>
 ✔️3.2: HTML & CSS - Estruturas de página / <em>page structure</em><br>
 ✔️3.3: HTML & CSS - Primeiros passos em CSS / <em>CSS: first steps</em><br>
 ✔️3.4: HTML & CSS - Seletores e posicionamento / <em>selector and positioning</em><br>
 ✔️3.5: HTML Semântico / <em>semantic HTML</em><br>
-3.6: Projeto - Lessons Learned
+✔️3.6: Projeto - Lessons Learned
 
 ### Bloco 04: Introdução à JavaScript e Lógica de Programação / <em>Introduction to JavaScript and Programming Logic</em>
 ✔️4.1: Introdução - JavaScript <br>
-4.2: JavaScript - Primeiros passos / <em>first steps</em><br>
-4.3: JavaScript - Array e loop for <br>
-4.4: JavaScript - Lógica de programação e algoritmos / <em>programming logic and algorithms</em><br>
-4.5: JavaScript - Objetos e funções / <em>objects and functions</em><br>
-4.6: Projeto - Playground Functions
+✔️4.2: JavaScript - Primeiros passos / <em>first steps</em><br>
+✔️4.3: JavaScript - Array e loop for <br>
+✔️4.4: JavaScript - Lógica de programação e algoritmos / <em>programming logic and algorithms</em><br>
+✔️4.5: JavaScript - Objetos e funções / <em>objects and functions</em><br>
+✔️4.6: Projeto - Playground Functions
+
+### ⏳ Bloco 05: JavaScript - DOM, Eventos e Web Storage / <em>DOM, Events and Web Storage</em><br>
+✔️5.1: JavaScript - DOM e seletores / <em>DOM and selectors</em><br>
+✔️5.2: Trabalhando com elementos / <em>working with elements</em><br>
+✔️5.3: JavaScript - Eventos / <em>events</em><br>
+✔️5.4: JavaScript - Web Storage <br>
+✔️5.5: Projeto - Arte com Pixels / <em>project - pixel art</em><br>
+✔️5.6: Projeto - Lista de tarefas / <em>project - task list</em><br>
+5.7: (Bônus) Projeto - Meme Generator / <em>(bonus) project - meme generator</em><br>
+5.8: (Bônus) Projeto - Adivinhe a Cor <br>
+5.9: (Bônus) Projeto - Carta Misteriosa <br>
