@@ -119,3 +119,14 @@ function adicionaCor(color){
 }
 
 adicionaCor("green");
+
+let botaoLegenda = document.querySelector(".task");
+botaoLegenda.addEventListener("click", atribuiCor);
+
+function atribuiCor(event){
+    if(event.target.classList.contains("task", "selected")){
+        event.target.classList.remove("selected");
+    }else{
+        event.target.classList.add("task", "selected");
+    }
+}
