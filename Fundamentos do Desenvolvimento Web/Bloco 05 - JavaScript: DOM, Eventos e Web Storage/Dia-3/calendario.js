@@ -34,6 +34,8 @@ function createDaysOfTheWeek() {
         } else{
             day.className = "day";
         }
+        day.addEventListener("mouseover", zoomIn);
+        day.addEventListener("mouseout", zoomOut);
     }
 }
 
@@ -88,4 +90,12 @@ function mudaTexto(){
             sexta[i].innerText = diasSexta[i];
         }
     }
+}
+
+function zoomIn(event){
+    event.target.style.fontSize = "1.5em";
+}
+
+function zoomOut(event){
+    event.target.style.fontSize = "1em";
 }
