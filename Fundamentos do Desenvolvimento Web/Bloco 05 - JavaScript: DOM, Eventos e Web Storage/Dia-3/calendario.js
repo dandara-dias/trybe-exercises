@@ -36,6 +36,7 @@ function createDaysOfTheWeek() {
         }
         day.addEventListener("mouseover", zoomIn);
         day.addEventListener("mouseout", zoomOut);
+        day.addEventListener("click", atribuiCor);
     }
 }
 
@@ -121,12 +122,21 @@ function adicionaCor(color){
 adicionaCor("green");
 
 let botaoLegenda = document.querySelector(".task");
-botaoLegenda.addEventListener("click", atribuiCor);
+botaoLegenda.addEventListener("click", atribuiClasse);
 
-function atribuiCor(event){
+function atribuiClasse(event){
     if(event.target.classList.contains("task", "selected")){
         event.target.classList.remove("selected");
     }else{
         event.target.classList.add("task", "selected");
+    }
+}
+
+function atribuiCor(event){
+    let cor = document.querySelector(".task");
+    if(event.target.style.color == "rgb(119, 119, 119)"){
+        event.target.style.color = cor.style.backgroundColor;
+    }else{
+        event.target.style.color = "rgb(119, 119, 119)";
     }
 }
