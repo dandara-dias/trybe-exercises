@@ -42,14 +42,18 @@ function setHeight(event){
 function setFont(event){
   let family = event.target.value;
   p.style.fontFamily = family;
+
+  localStorage.setItem("5.4-font-family", family);
 }
 
 let savedBg = localStorage.getItem("5.4-background-color");
 let savedColor = localStorage.getItem("5.4-color");
 let savedSize = localStorage.getItem("5.4-font-size");
 let savedHeight = localStorage.getItem("5.4-line-height");
+let savedFont = localStorage.getItem("5.4-font-family");
 
 document.body.style.backgroundColor = savedBg;
 p.style.color = savedColor;
 p.style.fontSize = savedSize;
 p.style.lineHeight = savedHeight;
+p.style.fontFamily = savedFont;
