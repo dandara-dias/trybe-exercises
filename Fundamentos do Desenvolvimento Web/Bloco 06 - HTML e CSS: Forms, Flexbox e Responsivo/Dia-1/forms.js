@@ -1,6 +1,7 @@
 let estados = ["AC", "AL", "AP", "AM", "BA", "CE", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO", "DF"];
 let select = document.getElementById("estado");
 let enviar = document.querySelector(".submit-btn");
+let limpar = document.querySelector(".clear-btn");
 
 for(let i=0; i<estados.length; i++){
     let opcao = document.createElement("option");
@@ -9,11 +10,14 @@ for(let i=0; i<estados.length; i++){
 }
 
 enviar.addEventListener("click", submit);
+limpar.addEventListener("click", clear);
 
 function submit(event){
     event.preventDefault();
 
     let validacao = validaInfos();
+
+    clearDivs();
     
     if(validacao.erroQtd === 0){
         renderData();
@@ -188,5 +192,32 @@ function renderErrorMessages(messages){
         p.innerText = message;
 
         messageDiv.appendChild(p);
+    }
+}
+
+function clear(){
+    let formElements = document.querySelectorAll("input");
+    let textArea = document.querySelector("textarea");
+    let div = document.querySelectorAll(".div-curriculum");
+
+    for(let i=0; i<formElements.length && i < div.length; i++){
+        let userInput = formElements[i];
+        userInput.value = "";
+        textArea.value = "";
+        div[i].innerText = "";
+    }
+}
+
+function clearDivs(){
+    let errorDivs = document.querySelectorAll(".error");
+
+    for(div of errorDivs){
+        div.remove();
+    }
+
+    let dataDiv = document.querySelector(".data");
+
+    if(dataDiv){
+        dataDiv.remove();
     }
 }
