@@ -7,46 +7,49 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
-        <label for="nome">Nome:</label>
-        <input type="text" name="input-nome" id="nome" maxlength="40" required>
+    <form id="cv-form">
+        <fieldset>
+            <label for="nome">Nome:</label>
+            <input type="text" name="input-nome" id="nome" maxlength="40" required>
 
-        <label for="email">E-mail:</label>
-        <input type="email" name="input-email" id="email" maxlength="50" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="input-email" id="email" maxlength="50" required>
 
-        <label for="cpf">CPF:</label>
-        <input type="text" name="input-cpf" id="cpf" maxlength="11" required>
+            <label for="cpf">CPF:</label>
+            <input type="text" name="input-cpf" id="cpf" maxlength="11" required>
 
-        <label for="endereco">Endereço:</label>
-        <input type="text" name="input-endereco" id="endereco" maxlength="200" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="input-endereco" id="endereco" maxlength="200" required>
 
-        <label for="cidade">Cidade:</label>
-        <input type="text" name="input-cidade" id="cidade" maxlength="28" required>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="input-cidade" id="cidade" maxlength="28" required>
 
-        <label for="estado">Estado:</label>
-            <select name="input-estado" id="estado" required>
-                <option value="">Selecione seu Estado</option>
-            </select>
+            <label for="estado">Estado:</label>
+                <select name="input-estado" id="estado" required>
+                    <option value="">Selecione seu Estado</option>
+                </select>
         
-        <label for="input-moradia">Moradia:</label>
-        <input type="radio" name="input-moradia" id="moradia-casa" required>Casa
-        <input type="radio" name="input-moradia" id="moradia-apt" required>Apartamento
-    </fieldset>
+            <label for="input-moradia">Moradia:</label>
+            <input type="radio" name="input-moradia" id="moradia-casa" required>Casa
+            <input type="radio" name="input-moradia" id="moradia-apt" required>Apartamento
+        </fieldset>
+        
+        <fieldset>
+            <label for="resumo">Resumo do Currículo:</label>
+            <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
 
-    <fieldset>
-        <label for="resumo">Resumo do Currículo:</label>
-        <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+            <label for="cargo">Cargo:</label>
+            <input type="text" name="input-cargo" id="cargo" maxlength="40" required>
 
-        <label for="cargo">Cargo:</label>
-        <input type="text" name="input-cargo" id="cargo" maxlength="40" required>
+            <label for="descricao">Descrição do Cargo:</label>
+            <input type="text" name="input-descricao" id="descricao" maxlength="500" required>
 
-        <label for="descricao">Descrição do Cargo:</label>
-        <input type="text" name="input-descricao" id="descricao" maxlength="500" required>
+            <label for="data">Data de Início</label>
+            <input type="date" name="input-data" id="data" required>
+        </fieldset>
 
-        <label for="data">Data de Início</label>
-        <input type="date" name="input-data" id="data" required>
-    </fieldset>
-
+        <button type="submit" class="submit-btn">Enviar</button>
+    </form>
     <script src="forms.js"></script>
 </body>
 </html>
