@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms-bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="dropdown-header">
+        <h1>Formulário para cadastro de currículo</h1>
+    </header>
+    <form id="cv-form" class="form-label">
+        <fieldset>
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" name="input-nome" id="nome" maxlength="40" required>
+
+            <label for="email" class="col-form-label">E-mail:</label>
+            <input type="email" name="input-email" id="email" maxlength="50" required>
+
+            <label for="cpf" class="col-form-label-lg">CPF:</label>
+            <input type="text" name="input-cpf" id="cpf" maxlength="11" required>
+
+            <label for="endereco" class="col-form-label-sm">Endereço:</label>
+            <input type="text" name="input-endereco" id="endereco" maxlength="200" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="input-cidade" id="cidade" maxlength="28" required>
+
+            <label for="estado">Estado:</label>
+                <select name="input-estado" id="estado" required>
+                    <option value="">Selecione seu Estado</option>
+                </select>
+        
+            <label for="input-moradia">Moradia:</label>
+            <input type="radio" name="input-moradia" id="moradia-casa" required>Casa
+            <input type="radio" name="input-moradia" id="moradia-apt" required>Apartamento
+        </fieldset>
+        
+        <fieldset>
+            <label for="resumo">Resumo do Currículo:</label>
+            <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+
+            <label for="cargo">Cargo:</label>
+            <input type="text" name="input-cargo" id="cargo" maxlength="40" required>
+
+            <label for="descricao">Descrição do Cargo:</label>
+            <input type="text" name="input-descricao" id="descricao" maxlength="500" required>
+
+            <label for="data">Data de Início</label>
+            <input type="date" name="input-data" id="data" required>
+        </fieldset>
+
+        <button type="submit" class="submit-btn accordion-button">Enviar</button>
+        <button type="button" class="clear-btn">Limpar</button>
+    </form>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="forms-bootstrap.js"></script>
+</body>
+</html>
