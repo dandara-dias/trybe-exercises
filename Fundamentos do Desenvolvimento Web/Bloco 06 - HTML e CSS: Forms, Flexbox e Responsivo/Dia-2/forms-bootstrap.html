@@ -13,31 +13,31 @@
     <header class="dropdown-header">
         <h1>Formulário para cadastro de currículo</h1>
     </header>
-    <form id="cv-form" class="form-label">
+    <form id="cv-form" class="js-form">
         <fieldset>
             <label for="nome" class="form-label">Nome:</label>
-            <input type="text" name="input-nome" id="nome" maxlength="40" required>
+            <input type="text" name="input-nome" id="nome" maxlength="40" required data-validate-field="nome">
 
             <label for="email" class="col-form-label">E-mail:</label>
-            <input type="email" name="input-email" id="email" maxlength="50" required>
+            <input type="email" name="input-email" id="email" maxlength="50" required data-validate-field="email">
 
             <label for="cpf" class="col-form-label-lg">CPF:</label>
-            <input type="text" name="input-cpf" id="cpf" maxlength="11" required>
+            <input type="text" name="input-cpf" id="cpf" maxlength="11" required data-validate-field="cpf">
 
             <label for="endereco" class="col-form-label-sm">Endereço:</label>
-            <input type="text" name="input-endereco" id="endereco" maxlength="200" required>
+            <input type="text" name="input-endereco" id="endereco" maxlength="200" required data-validate-field="endereco">
 
             <label for="cidade">Cidade:</label>
-            <input type="text" name="input-cidade" id="cidade" maxlength="28" required>
+            <input type="text" name="input-cidade" id="cidade" maxlength="28" required data-validate-field="cidade">
 
             <label for="estado">Estado:</label>
-                <select name="input-estado" id="estado" required>
+                <select name="input-estado" id="estado" required data-validate-field="estado">
                     <option value="">Selecione seu Estado</option>
                 </select>
         
             <label for="input-moradia">Moradia:</label>
-            <input type="radio" name="input-moradia" id="moradia-casa" required>Casa
-            <input type="radio" name="input-moradia" id="moradia-apt" required>Apartamento
+            <input type="radio" name="input-moradia" id="moradia-casa" required data-validate-field="casa">Casa
+            <input type="radio" name="input-moradia" id="moradia-apt" required data-validate-field="apartamento">Apartamento
         </fieldset>
         
         <fieldset>
@@ -45,13 +45,13 @@
             <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
 
             <label for="cargo">Cargo:</label>
-            <input type="text" name="input-cargo" id="cargo" maxlength="40" required>
+            <input type="text" name="input-cargo" id="cargo" maxlength="40" required data-validate-field="cargo">
 
             <label for="descricao">Descrição do Cargo:</label>
-            <input type="text" name="input-descricao" id="descricao" maxlength="500" required>
+            <input type="text" name="input-descricao" id="descricao" maxlength="500" required data-validate-field="descricao">
 
             <label for="data">Data de Início</label>
-            <input type="text" name="input-data" id="datepicker" required>
+            <input type="text" name="input-data" id="datepicker" required data-validate-field="data">
         </fieldset>
 
         <button type="submit" class="submit-btn accordion-button">Enviar</button>
@@ -60,7 +60,7 @@
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
-    <script src="forms-bootstrap.js"></script>
+    <script src="forms-bootstrap.js" type="module"></script>
     <script src="moment.js"></script>
     <script src="pikaday.js"></script>
 <script>
