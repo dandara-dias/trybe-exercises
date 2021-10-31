@@ -9,6 +9,14 @@
   width: 70px;
 }
 
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: dimgrey;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .gallery-img {
   width: 150px;
 }
