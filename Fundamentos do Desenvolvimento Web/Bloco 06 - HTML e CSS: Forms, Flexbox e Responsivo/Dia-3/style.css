@@ -22,6 +22,27 @@
   width: 150px;
 }
 
+.second-section {
+  width: 150px;
+  background-color: lightgray;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#section2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: center;
+  width: 550px;
+  margin-left: 400px;
+}
+
 .social-img {
   width: 25px;
   margin-left: 10px;
