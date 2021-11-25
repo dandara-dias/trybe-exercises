@@ -1,1 +1,2 @@
 docker pull debian
+docker pull debian:stable-slim
