@@ -7,3 +7,4 @@ docker container start a // ID: aaeead72d2cb
 docker container ls -a
 docker container attach a
 exit
+docker container rm a
