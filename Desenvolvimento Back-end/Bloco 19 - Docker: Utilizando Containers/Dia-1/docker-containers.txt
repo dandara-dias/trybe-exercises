@@ -3,3 +3,5 @@ docker pull debian:stable-slim
 docker container run -it debian:stable-slim
 exit
 docker container ls -a
+docker container start a // ID: aaeead72d2cb
+docker container ls -a
