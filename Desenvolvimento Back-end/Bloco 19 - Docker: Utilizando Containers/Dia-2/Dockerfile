@@ -1,5 +1,5 @@
-FROM chuanwen/cowsay:latest AS cowsay
+FROM chuanwen/cowsay:latest
 
-ENTRYPOINT ["cowsay"]
+ENTRYPOINT ["/usr/games/cowsay"]
 
 CMD [ "Mu" ]
