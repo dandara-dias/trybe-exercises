@@ -24,3 +24,7 @@ docker inspect 7
                 "Propagation": "rprivate"
             }
         ],
+
+7. Agora pare o container httpd:2.4 ;
+
+docker container stop 7
