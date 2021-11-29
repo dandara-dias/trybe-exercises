@@ -8,6 +8,7 @@ services:
     environment:
       database__client: mysql
       database__connection__database: ghost
+      database__connection__host: mysql
   
   mysql:
     image: mysql:5.7
