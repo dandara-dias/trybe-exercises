@@ -41,3 +41,7 @@ ls -a
 10. Obtenha o IMAGE ID do servidor;
 
 docker images #ad17c88403e2
+
+11. Depois de obter o IMAGE ID , exclua a imagem.
+
+docker rmi -f a
