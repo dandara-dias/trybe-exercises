@@ -28,3 +28,7 @@ docker inspect 7
 7. Agora pare o container httpd:2.4 ;
 
 docker container stop 7
+
+8. Exclua o seu container;
+
+docker container rm 7
