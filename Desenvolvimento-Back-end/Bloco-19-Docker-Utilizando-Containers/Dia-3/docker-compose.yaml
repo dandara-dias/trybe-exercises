@@ -5,6 +5,8 @@ services:
     image: ghost:1-alpine
     ports:
       - 2368:2368
+    environment:
+      database__client: mysql
   
   mysql:
     image: mysql:5.7
