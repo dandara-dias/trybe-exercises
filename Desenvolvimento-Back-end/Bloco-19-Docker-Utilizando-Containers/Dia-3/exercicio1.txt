@@ -5,3 +5,7 @@ docker container run -d --name exercicio-compose-1 -p 4545:80 -v "PWD:/usr/local
 3. Após criar o container acesse a página HTML que está rodando no servidor em seu browser.
 
 http://localhost:4545/missao_trybe.html
+
+5. Obtenha o id do container httpd:2.4 ;
+
+docker container ls #7c61470bf4b8 
