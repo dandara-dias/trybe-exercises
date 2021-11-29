@@ -37,3 +37,7 @@ docker container rm 7
 
 pwd
 ls -a
+
+10. Obtenha o IMAGE ID do servidor;
+
+docker images #ad17c88403e2
