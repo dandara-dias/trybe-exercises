@@ -32,3 +32,8 @@ docker container stop 7
 8. Exclua o seu container;
 
 docker container rm 7
+
+9. Verifique se a pasta onde você salvou o arquivo html permanece no mesmo lugar;
+
+pwd
+ls -a
