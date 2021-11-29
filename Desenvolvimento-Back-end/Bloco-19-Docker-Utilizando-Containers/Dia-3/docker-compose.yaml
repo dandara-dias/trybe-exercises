@@ -9,6 +9,8 @@ services:
       database__client: mysql
       database__connection__database: ghost
       database__connection__host: mysql
+      database__connection__user: root
+      database__connection__password: "${MYSQL_ROOT_PASSWORD}"
   
   mysql:
     image: mysql:5.7
