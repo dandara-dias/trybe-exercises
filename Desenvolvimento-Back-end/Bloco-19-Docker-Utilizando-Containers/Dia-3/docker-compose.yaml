@@ -11,6 +11,8 @@ services:
       database__connection__host: mysql
       database__connection__user: root
       database__connection__password: "${MYSQL_ROOT_PASSWORD}"
+    depends_on:
+      - "mysql"
   
   mysql:
     image: mysql:5.7
