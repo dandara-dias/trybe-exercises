@@ -13,6 +13,8 @@ services:
       database__connection__password: test
     depends_on:
       - "mysql"
+    networks:
+      - my-network
   
   mysql:
     image: mysql:5.7
@@ -20,6 +22,11 @@ services:
       MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
     volumes:
       - mysql-data:/var/lib/mysql
+    networks:
+      - my-network
 
 volumes:
   mysql-data:
+
+networks:
+  my-network:
