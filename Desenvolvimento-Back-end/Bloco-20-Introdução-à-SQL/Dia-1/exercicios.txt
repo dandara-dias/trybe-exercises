@@ -1,0 +1,29 @@
+Exercício 1 : Descubra como fazer uma pesquisa em qualquer tabela sem utilizar uma linha de código usando o MySql Workbench .
+
+Deve-se clicar com o botão direito no nome da tabela e selecionar "Select rows"
+
+Exercício 2 : Descubra como é possível criar uma tabela sem usar código SQL usando o MySql Workbench .
+
+Deve-se clicar com o botão direito em Table e selecionar "Create table"
+
+Exercício 3 : Feito isso, crie uma tabela com as seguintes restrições:
+
+src: https://www.tutorialspoint.com/what-do-column-flags-mean-in-mysql-workbench#:~:text=a%20primary%20key.-,NN,not%20insert%20a%20NULL%20value.
+
+Exercício 4 : Analise a tabela city e encontre a tabela à qual a coluna country_id faz referência.
+
+Tabela country
+
+Exercício 5 : Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
+
+N:1
+
+Exercício 6 : Qual tipo de relacionamento a tabela country faz com a tabela city ?
+
+1:N
+
+Exercício 7 : Abra tabela por tabela do banco sakila e encontre no mínimo 3 exemplos de um relacionamentos 1:N ou N:1.
+
+address e city -> N:1
+film e language -> N:1
+actor e film -> 1:N
