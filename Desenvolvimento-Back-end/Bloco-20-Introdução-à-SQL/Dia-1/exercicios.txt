@@ -21,3 +21,9 @@ N:1
 Exercício 6 : Qual tipo de relacionamento a tabela country faz com a tabela city ?
 
 1:N
+
+Exercício 7 : Abra tabela por tabela do banco sakila e encontre no mínimo 3 exemplos de um relacionamentos 1:N ou N:1.
+
+address e city -> N:1
+film e language -> N:1
+actor e film -> 1:N
