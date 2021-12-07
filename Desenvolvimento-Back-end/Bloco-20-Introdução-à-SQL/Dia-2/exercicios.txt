@@ -31,3 +31,7 @@ ORDER BY Name;
 
 SELECT Name FROM Projects
 ORDER BY Name DESC;
+
+9. Escreva uma query que exiba a string "O projeto Name precisou de Hours horas para ser concluído." para cada projeto.
+
+SELECT CONCAT('O projeto ', Name, ' precisou de ', Hours, ' horas para ser concluído.') FROM Projects;
