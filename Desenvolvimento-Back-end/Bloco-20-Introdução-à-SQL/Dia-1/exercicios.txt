@@ -17,3 +17,7 @@ Tabela country
 Exercício 5 : Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
 
 N:1
+
+Exercício 6 : Qual tipo de relacionamento a tabela country faz com a tabela city ?
+
+1:N
