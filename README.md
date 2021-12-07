@@ -12,42 +12,78 @@ Trybe is a web development school that has a genuine commitment to the professio
 
 ***
 
-## Fundamentos do Desenvolvimento Web / <em>Web Development 101</em>
+<details>
+  <summary>Fundamentos do Desenvolvimento Web</summary>
 
-### Bloco 01: Unix & Bash / <em> 01: Unix & Bash</em>
-✔️1.1: Fundamentos do desenvolvimento web / <em>web development 101</em><br>
-✔️1.2: Introdução - Unix & Shell / <em>introduction - unix & shell</em><br>
-✔️1.3: Unix & Bash - parte 1 / <em>unix & bash - part 1</em><br>
-✔️1.4: Unix & Bash - parte 2 / <em>unix & bash - part 2</em><br>
+  ### Bloco 01: Unix & Bash
+  - [x] Fundamentos do desenvolvimento web<br>
+  - [x] Introdução - Unix & Shell<br>
+  - [x] Unix & Bash - parte 1<br>
+  - [x] Unix & Bash - parte 2<br>
 
-### Bloco 02: Git, GitHub e Internet / <em>02: Git, GitHub and Internet</em>
-✔️2.1: Git & GitHub - O que é e para que serve / <em>what it is and what it is for</em><br>
-✔️2.2: Git & GitHub - Entendendo os comandos / <em>understanding the commands</em><br>
-✔️2.3: Internet - Entendendo como ela funciona / <em>understanding how it works</em><br>
+  ### Bloco 02: Git, GitHub e Internet
+  - [x] Git & GitHub - O que é e para que serve<br>
+  - [x] Git & GitHub - Entendendo os comandos<br>
+  - [x] Internet - Entendendo como ela funciona<br>
 
-### Bloco 03: Introdução à HTML e CSS / <em>03: HTML and CSS 101</em>
-✔️3.1: Introdução - HTML & CSS <br>
-✔️3.2: HTML & CSS - Estruturas de página / <em>page structure</em><br>
-✔️3.3: HTML & CSS - Primeiros passos em CSS / <em>CSS: first steps</em><br>
-✔️3.4: HTML & CSS - Seletores e posicionamento / <em>selector and positioning</em><br>
-✔️3.5: HTML Semântico / <em>semantic HTML</em><br>
-✔️3.6: Projeto - Lessons Learned
+  ### Bloco 03: Introdução à HTML e CSS
+  - [x] Introdução - HTML & CSS <br>
+  - [x] HTML & CSS - Estruturas de página<br>
+  - [x] HTML & CSS - Primeiros passos em CSS<br>
+  - [x] HTML & CSS - Seletores e posicionamento<br>
+  - [x] HTML Semântico<br>
 
-### Bloco 04: Introdução à JavaScript e Lógica de Programação / <em>Introduction to JavaScript and Programming Logic</em>
-✔️4.1: Introdução - JavaScript <br>
-✔️4.2: JavaScript - Primeiros passos / <em>first steps</em><br>
-✔️4.3: JavaScript - Array e loop for <br>
-✔️4.4: JavaScript - Lógica de programação e algoritmos / <em>programming logic and algorithms</em><br>
-✔️4.5: JavaScript - Objetos e funções / <em>objects and functions</em><br>
-✔️4.6: Projeto - Playground Functions
+  ### Bloco 04: Introdução à JavaScript e Lógica de Programação
+  - [x] Introdução - JavaScript <br>
+  - [x] JavaScript - Primeiros passos<br>
+  - [x] JavaScript - Array e loop for <br>
+  - [x] JavaScript - Lógica de programação e algoritmos <br>
+  - [x] JavaScript - Objetos e funções <br>
 
-### ⏳ Bloco 05: JavaScript - DOM, Eventos e Web Storage / <em>DOM, Events and Web Storage</em><br>
-✔️5.1: JavaScript - DOM e seletores / <em>DOM and selectors</em><br>
-✔️5.2: Trabalhando com elementos / <em>working with elements</em><br>
-✔️5.3: JavaScript - Eventos / <em>events</em><br>
-✔️5.4: JavaScript - Web Storage <br>
-✔️5.5: Projeto - Arte com Pixels / <em>project - pixel art</em><br>
-✔️5.6: Projeto - Lista de tarefas / <em>project - task list</em><br>
-5.7: (Bônus) Projeto - Meme Generator / <em>(bonus) project - meme generator</em><br>
-5.8: (Bônus) Projeto - Adivinhe a Cor <br>
-5.9: (Bônus) Projeto - Carta Misteriosa <br>
+  ### Bloco 05: JavaScript - DOM, Eventos e Web Storage<br>
+  - [x] JavaScript - DOM e seletores<br>
+  - [x] Trabalhando com elementos<br>
+  - [x] JavaScript - Eventos<br>
+  - [x] JavaScript - Web Storage <br>
+  
+  ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo<br>
+  - [x] HTML & CSS - Forms<br>
+  - [x] Bibliotecas JavaScript e Frameworks CSS<br>
+  - [x] Introdução - CSS Flexbox<br>
+  - [x] CSS Flexbox - Parte 1<br>
+  - [x] CSS Flexbox - Parte 2<br>
+  - [ ] CSS Responsivo - Mobile First<br>
+  
+  ### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários<br>
+  - [ ] JavaScript ES6 - let, const, arrow functions e template literals<br>
+  - [ ] JavaScript ES6 - Objects<br>
+  - [ ] Primeiros passos em Jest<br>
+  
+  ### Bloco 08: Higher Order Functions do JavaScript ES6<br>
+  - [ ] JavaScript ES6 - Introdução a Higher Order Functions<br>
+  - [ ] JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort<br>
+  - [ ] JavaScript ES6 - Higher Order Functions - map e filter<br>
+  - [ ] JavaScript ES6 - Higher Order Functions - reduce<br>
+  - [ ] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais<br>
+  
+  ### Bloco 09: JavaScript e Testes Assíncronos<br>
+  - [ ] JavaScript Assíncrono e Callbacks<br>
+  - [ ] JavaScript Assíncrono - Fetch API e async/await<br>
+  - [ ] Jest - Testes Assíncronos<br>
+  
+</details>
+
+<details>
+  <summary>Desenvolvimento Front-end</summary>
+  
+  ### Bloco 10: Introdução à React<br>
+  - [ ] Introdução - Front-end
+  - [ ] Introdução - React
+  - [ ] 'Hello, world!' no React!
+  - [ ] Componentes React
+  
+  ### Bloco 11: Componentes com Estado, Eventos e Formulários com React<br>
+  - [ ] Componentes com estado e eventos
+  - [ ] Formulários no React
+  
+</details>
