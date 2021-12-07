@@ -13,3 +13,7 @@ src: https://www.tutorialspoint.com/what-do-column-flags-mean-in-mysql-workbench
 Exercício 4 : Analise a tabela city e encontre a tabela à qual a coluna country_id faz referência.
 
 Tabela country
+
+Exercício 5 : Após resolver o exercício anterior, responda: qual tipo de relacionamento a tabela city faz com a tabela country?
+
+N:1
