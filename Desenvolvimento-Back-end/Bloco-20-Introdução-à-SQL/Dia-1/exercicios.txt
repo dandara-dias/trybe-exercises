@@ -9,3 +9,7 @@ Deve-se clicar com o botão direito em Table e selecionar "Create table"
 Exercício 3 : Feito isso, crie uma tabela com as seguintes restrições:
 
 src: https://www.tutorialspoint.com/what-do-column-flags-mean-in-mysql-workbench#:~:text=a%20primary%20key.-,NN,not%20insert%20a%20NULL%20value.
+
+Exercício 4 : Analise a tabela city e encontre a tabela à qual a coluna country_id faz referência.
+
+Tabela country
