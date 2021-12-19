@@ -34,3 +34,8 @@ WHERE Hours > 250 AND Hours < 800;
 
 SELECT Name, Code FROM Projects
 WHERE Name NOT LIKE 'A%';
+
+8. Escreva uma query para exibir o nome de todos os projetos cujo código contenha a letra H .
+
+SELECT Name FROM Projects
+WHERE Code LIKE '%H%';
