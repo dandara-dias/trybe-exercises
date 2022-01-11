@@ -1,0 +1,15 @@
+{
+  "name": "dia-3",
+  "version": "1.0.0",
+  "description": "Exercícios do dia 22.3 - mocha, chai e sinon: testes de back-end com node.js",
+  "main": "exercicio2.js",
+  "scripts": {
+    "test": "mocha exercicio1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}

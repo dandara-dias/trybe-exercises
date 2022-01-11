@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 
-const funcaoSinal = require('./sinal');
+const funcaoSinal = require('./exercicio2');
 
 describe('Quando o número for maior que 0', () => {
   it('A resposta é uma string', () => {
