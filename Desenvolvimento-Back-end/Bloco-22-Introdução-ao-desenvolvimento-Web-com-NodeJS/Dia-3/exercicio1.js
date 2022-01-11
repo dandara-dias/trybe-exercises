@@ -43,3 +43,13 @@ describe('Quando o número for igual a 0', () => {
     expect(resposta).to.be.equals('neutro');
   });
 });
+
+describe('Quando o parâmetro não for um número', () => {
+  it('A resposta é uma string', () => {
+    //
+  });
+
+  it('Retorna "o valor deve ser um número"', () => {
+    //
+  });
+});
