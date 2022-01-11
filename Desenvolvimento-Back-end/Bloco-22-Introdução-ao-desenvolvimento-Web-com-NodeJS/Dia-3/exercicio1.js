@@ -46,10 +46,14 @@ describe('Quando o número for igual a 0', () => {
 
 describe('Quando o parâmetro não for um número', () => {
   it('A resposta é uma string', () => {
-    //
+    const resposta = funcaoSinal('a');
+
+    expect(resposta).to.be.a('string');
   });
 
   it('Retorna "o valor deve ser um número"', () => {
-    //
+    const resposta = funcaoSinal('a');
+
+    expect(resposta).to.be.equals('o valor deve ser um número');
   });
 });
