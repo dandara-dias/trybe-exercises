@@ -19,7 +19,7 @@ Trybe is a web development school that has a genuine commitment to the professio
   - [x] Fundamentos do desenvolvimento web
   - [x] Introdução - Unix & Shell
   - [x] Unix & Bash - parte 1
-  - [ ] Unix & Bash - parte 2
+  - [x] Unix & Bash - parte 2
 
   ### Bloco 02: Git, GitHub e Internet
   - [ ] Git & GitHub - O que é e para que serve<br>
