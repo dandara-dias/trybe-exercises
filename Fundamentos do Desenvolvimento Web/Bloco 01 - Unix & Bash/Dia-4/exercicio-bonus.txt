@@ -1,0 +1,39 @@
+1. Abra o terminal e execute o comando sudo apt-get install cmatrix. Depois, execute o comando cmatrix. Quando estiver se sentindo como o Neo, aperte ctrl+c para voltar ao terminal
+
+CTRL+ALT+T
+sudo apt-get install cmatrix
+cmatrix
+CTRL+C
+
+2. Execute o comando sudo apt-get install fortune e após a instalação, crie um arquivo de texto chamado fortune.txt que contenha a sua sorte do dia. Utilize apenas uma linha de comando
+
+sudo apt-get install fortune
+fortune > fortune.txt
+
+3. Conte quantas palavras tem a frase da sua sorte do dia
+
+wc -w fortune.txt //30
+
+4. Execute o comando sudo apt-get install sl. Após a instalação, execute o comando sl. Agora tente sl -F
+
+sudo apt-get install sl
+sl
+sl -F
+
+5. Execute o comando sudo apt-get install cowsay. Após a instalação, execute o comando cowsay e algo que você queira falar. Agora faça a vaquinha dizer a frase que está gravada no arquivo fortune.txt 
+
+sudo apt-get install cowsay
+cowsay algo que você queira falar
+tail fortune.txt | cowsay
+
+6. Descubra os fatores primos usando o comando factor e em seguida o número 42
+
+factor 42
+
+7. Veja como fica a sua sorte do dia ao contrário
+
+tail fortune.txt | rev
+
+8. Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos
+
+telnet towel.blinkenlights.nl
