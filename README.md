@@ -86,4 +86,31 @@ Trybe is a web development school that has a genuine commitment to the professio
   - [ ] Componentes com estado e eventos
   - [ ] Formulários no React
   
+  ### Bloco 12: Ciclo de Vida de Componentes e React Router<br>
+  - [ ] Ciclo de vida de componentes
+  - [ ] React Router
+  
+  ### Bloco 13: Metodologias Ágeis<br>
+  
+  ### Bloco 14: Testes automatizados com React Testing Library<br>
+  - [ ] RTL - Primeiros passos
+  - [ ] RTL - Mocks e Inputs
+  - [ ] RTL - Testando React Router
+  
+  ### Bloco 15: Gerenciamento de estado com Redux<br>
+  - [ ] Introdução ao Redux - O estado global da aplicação
+  - [ ] Usando o Redux no React
+  - [ ] Usando o Redux no React - Prática
+  - [ ] Usando o Redux no React - Actions Assíncronas
+  - [ ] Testes em React-Redux
+  
+  ### Bloco 16: Projeto Jogo de Trivia<br>
+  
+  ### Bloco 17: Context API e React Hooks<br>
+  - [ ] Context API do React
+  - [ ] React Hooks - useState e useContext
+  - [ ] React Hooks - useEffect e Hooks Customizados
+  
+  ### Bloco 18: Projeto App de Receitas<br>
+  
 </details>
