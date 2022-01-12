@@ -29,3 +29,7 @@ tail fortune.txt | cowsay
 6. Descubra os fatores primos usando o comando factor e em seguida o número 42
 
 factor 42
+
+7. Veja como fica a sua sorte do dia ao contrário
+
+tail fortune.txt | rev
