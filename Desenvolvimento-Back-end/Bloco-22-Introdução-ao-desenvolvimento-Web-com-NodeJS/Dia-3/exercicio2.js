@@ -1,13 +1,13 @@
 function sinal(num) {
   if (num > 0) {
     return 'positivo';
-  } 
-  
-  if (num < 0) {
+  } else if (num < 0) {
     return 'negativo';
+  } else if (num === 0) {
+      return 'neutro';
   }
 
-  return 'neutro';
+  return ''
 }
 
 module.exports = sinal;
