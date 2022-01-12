@@ -15,43 +15,43 @@ Trybe is a web development school that has a genuine commitment to the professio
 <details>
   <summary>Fundamentos do Desenvolvimento Web</summary>
 
-  ### Bloco 01: Unix & Bash
-  - [x] Fundamentos do desenvolvimento web<br>
-  - [x] Introdução - Unix & Shell<br>
-  - [x] Unix & Bash - parte 1<br>
-  - [x] Unix & Bash - parte 2<br>
+  ### Bloco 01: Unix & Bash<br>
+  - [x] Fundamentos do desenvolvimento web
+  - [x] Introdução - Unix & Shell
+  - [x] Unix & Bash - parte 1
+  - [x] Unix & Bash - parte 2
 
   ### Bloco 02: Git, GitHub e Internet
-  - [x] Git & GitHub - O que é e para que serve<br>
-  - [x] Git & GitHub - Entendendo os comandos<br>
-  - [x] Internet - Entendendo como ela funciona<br>
+  - [ ] Git & GitHub - O que é e para que serve<br>
+  - [ ] Git & GitHub - Entendendo os comandos<br>
+  - [ ] Internet - Entendendo como ela funciona<br>
 
   ### Bloco 03: Introdução à HTML e CSS
-  - [x] Introdução - HTML & CSS <br>
-  - [x] HTML & CSS - Estruturas de página<br>
-  - [x] HTML & CSS - Primeiros passos em CSS<br>
-  - [x] HTML & CSS - Seletores e posicionamento<br>
-  - [x] HTML Semântico<br>
+  - [ ] Introdução - HTML & CSS <br>
+  - [ ] HTML & CSS - Estruturas de página<br>
+  - [ ] HTML & CSS - Primeiros passos em CSS<br>
+  - [ ] HTML & CSS - Seletores e posicionamento<br>
+  - [ ] HTML Semântico<br>
 
   ### Bloco 04: Introdução à JavaScript e Lógica de Programação
-  - [x] Introdução - JavaScript <br>
-  - [x] JavaScript - Primeiros passos<br>
-  - [x] JavaScript - Array e loop for <br>
-  - [x] JavaScript - Lógica de programação e algoritmos <br>
-  - [x] JavaScript - Objetos e funções <br>
+  - [ ] Introdução - JavaScript <br>
+  - [ ] JavaScript - Primeiros passos<br>
+  - [ ] JavaScript - Array e loop for <br>
+  - [ ] JavaScript - Lógica de programação e algoritmos <br>
+  - [ ] JavaScript - Objetos e funções <br>
 
   ### Bloco 05: JavaScript - DOM, Eventos e Web Storage<br>
-  - [x] JavaScript - DOM e seletores<br>
-  - [x] Trabalhando com elementos<br>
-  - [x] JavaScript - Eventos<br>
-  - [x] JavaScript - Web Storage <br>
+  - [ ] JavaScript - DOM e seletores<br>
+  - [ ] Trabalhando com elementos<br>
+  - [ ] JavaScript - Eventos<br>
+  - [ ] JavaScript - Web Storage <br>
   
   ### Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo<br>
-  - [x] HTML & CSS - Forms<br>
-  - [x] Bibliotecas JavaScript e Frameworks CSS<br>
-  - [x] Introdução - CSS Flexbox<br>
-  - [x] CSS Flexbox - Parte 1<br>
-  - [x] CSS Flexbox - Parte 2<br>
+  - [ ] HTML & CSS - Forms<br>
+  - [ ] Bibliotecas JavaScript e Frameworks CSS<br>
+  - [ ] Introdução - CSS Flexbox<br>
+  - [ ] CSS Flexbox - Parte 1<br>
+  - [ ] CSS Flexbox - Parte 2<br>
   - [ ] CSS Responsivo - Mobile First<br>
   
   ### Bloco 07: Introdução à JavaScript ES6 e Testes Unitários<br>
