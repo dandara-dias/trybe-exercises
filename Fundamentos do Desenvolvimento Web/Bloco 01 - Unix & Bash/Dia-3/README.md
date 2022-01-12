@@ -1,0 +1,1 @@
+Este exercício teve como propósito treinar a criação e exclusão de arquivos e diretórios, onde os arquivos criados foram manipulados de forma a criar cópias, renomear, mover arquivos entre diretórios e mostrar o conteúdo na tela.
