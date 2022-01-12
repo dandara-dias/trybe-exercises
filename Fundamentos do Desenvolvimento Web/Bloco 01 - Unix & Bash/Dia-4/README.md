@@ -1,0 +1,1 @@
+Este exercício teve como propósito treinar a manipulação e busca em arquivos, onde há buscas de conteúdos específicos, mostrando o conteúdo na tela, contando o número de linhas e palavras e listando os arquivos.
