@@ -13,3 +13,9 @@ fortune > fortune.txt
 3. Conte quantas palavras tem a frase da sua sorte do dia
 
 wc -w fortune.txt //30
+
+4. Execute o comando sudo apt-get install sl. Após a instalação, execute o comando sl. Agora tente sl -F
+
+sudo apt-get install sl
+sl
+sl -F
