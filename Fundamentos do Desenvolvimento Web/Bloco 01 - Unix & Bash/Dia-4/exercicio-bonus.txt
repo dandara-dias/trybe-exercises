@@ -33,3 +33,7 @@ factor 42
 7. Veja como fica a sua sorte do dia ao contrário
 
 tail fortune.txt | rev
+
+8. Execute o comando telnet towel.blinkenlights.nl e espere alguns segundos
+
+telnet towel.blinkenlights.nl
