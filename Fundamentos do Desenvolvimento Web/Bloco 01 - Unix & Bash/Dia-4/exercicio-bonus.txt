@@ -19,3 +19,9 @@ wc -w fortune.txt //30
 sudo apt-get install sl
 sl
 sl -F
+
+5. Execute o comando sudo apt-get install cowsay. Após a instalação, execute o comando cowsay e algo que você queira falar. Agora faça a vaquinha dizer a frase que está gravada no arquivo fortune.txt 
+
+sudo apt-get install cowsay
+cowsay algo que você queira falar
+tail fortune.txt | cowsay
