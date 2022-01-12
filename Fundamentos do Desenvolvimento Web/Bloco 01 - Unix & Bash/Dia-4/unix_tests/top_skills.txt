@@ -1,3 +1,0 @@
-Bash
-CSS 3
-Git
