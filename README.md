@@ -114,3 +114,26 @@ Trybe is a web development school that has a genuine commitment to the professio
   ### Bloco 18: Projeto App de Receitas<br>
   
 </details>
+
+<details>
+  <summary>Desenvolvimento Back-end</summary>
+  
+  ### Bloco 19: Docker - Utilizando Containers<br>
+  - [ ] Utilizando Containers - Docker
+  - [ ] Manipulação e Criação de Imagens no Docker
+  - [ ] Orquestrando Containers com Docker Compose
+  
+  ### Bloco 20: Introdução à SQL<br>
+  - [ ] Banco de dados SQL
+  - [ ] Encontrando dados em um banco de dados
+  - [ ] Filtrando dados de forma específica
+  - [ ] Manipulando tabelas
+  
+  ### Bloco 21: Funções SQL, JOINs e Normalização
+  - [ ] Funções mais usadas no SQL
+  - [ ] Descomplicando JOINs
+  - [ ] Transformando ideias em um modelo de banco de dados
+  
+  ### Bloco 22: Introdução ao desenvolvimento Web com Node.js<br>
+  
+</details>
