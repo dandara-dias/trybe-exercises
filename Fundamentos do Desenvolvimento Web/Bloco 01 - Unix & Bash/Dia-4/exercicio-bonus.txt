@@ -1,2 +1,11 @@
 1. Abra o terminal e execute o comando sudo apt-get install cmatrix. Depois, execute o comando cmatrix. Quando estiver se sentindo como o Neo, aperte ctrl+c para voltar ao terminal
 
+CTRL+ALT+T
+sudo apt-get install cmatrix
+cmatrix
+CTRL+C
+
+2. Execute o comando sudo apt-get install fortune e após a instalação, crie um arquivo de texto chamado fortune.txt que contenha a sua sorte do dia. Utilize apenas uma linha de comando.
+
+sudo apt-get install fortune
+fortune > fortune.txt
