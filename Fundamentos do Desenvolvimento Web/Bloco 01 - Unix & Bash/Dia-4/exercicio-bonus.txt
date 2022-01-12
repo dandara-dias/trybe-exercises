@@ -25,3 +25,7 @@ sl -F
 sudo apt-get install cowsay
 cowsay algo que você queira falar
 tail fortune.txt | cowsay
+
+6. Descubra os fatores primos usando o comando factor e em seguida o número 42
+
+factor 42
