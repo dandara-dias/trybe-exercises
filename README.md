@@ -21,11 +21,8 @@ Trybe is a web development school that has a genuine commitment to the professio
   - [x] Unix & Bash - parte 1
   - [x] Unix & Bash - parte 2
 
-  ### Bloco 02: Git, GitHub e Internet
-  - [ ] Git & GitHub - O que é e para que serve<br>
-  - [ ] Git & GitHub - Entendendo os comandos<br>
-  - [ ] Internet - Entendendo como ela funciona<br>
-
+  ### Bloco 02: Git, GitHub e Internet<br>
+  
   ### Bloco 03: Introdução à HTML e CSS
   - [ ] Introdução - HTML & CSS <br>
   - [ ] HTML & CSS - Estruturas de página<br>
