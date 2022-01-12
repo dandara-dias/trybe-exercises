@@ -135,5 +135,88 @@ Trybe is a web development school that has a genuine commitment to the professio
   - [ ] Transformando ideias em um modelo de banco de dados
   
   ### Bloco 22: Introdução ao desenvolvimento Web com Node.js<br>
+  - [ ] Node.js - Um motor JavaScript
+  - [ ] Node.js - Fluxo Assíncrono
+  - [ ] Mocha, Chai e Sinon - Testes de Back-end com Node.js
+  - [ ] Express - HTTP com Node.js
+  - [ ] Express - Middlewares
+  
+  ### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful<br>
+  - [ ] Arquitetura de Software - Camada de Model
+  - [ ] Arquitetura de Software - Camada de Controller e Service
+  - [ ] Arquitetura Web - Rest e Restful
+  - [ ] Arquitetura de Software - Testando as Camadas
+  
+  ### Bloco 24: Node.js - ORM e Autenticação<br>
+  - [ ] ORM - Interface da aplicação com o banco de dados
+  - [ ] ORM - Associations
+  - [ ] JWT - (JSON Web Token)
+  - [ ] Testando APIs com Testes de Integração
+  
+  ### Bloco 25: Deployment<br>
+  - [ ] Infraestrutura - Deploy com Heroku
+  - [ ] Deploy Docker & Heroku
+  
+  ### Bloco 26: TypeScript<br>
+  - [ ] Introdução ao TypeScript
+  - [ ] Tipagem Estática e Generics
+  - [ ] Express com TypeScript
+  
+  ### Bloco 27: Programação Orientada a Objetos (POO) e SOLID<br>
+  - [ ] Introdução à Orientação a Objetos
+  - [ ] Herança e Interfaces
+  - [ ] Polimorfismo
+  - [ ] SOLID - Introdução
+  - [ ] SOLID - Continuação
+  
+  ### Bloco 28: Projeto TFC - Trybe Futebol Clube<br>
+  
+  ### Bloco 29: Introdução ao MongoDB<br>
+  - [ ] MongoDB - Introdução
+  - [ ] Filter Operators
+  
+  ### Bloco 30: MongoDB - Updates Simples e Complexos<br>
+  - [ ] Updates Simples
+  - [ ] Updates Complexos - Arrays - Parte 1
+  - [ ] Updates Complexos - Arrays - Parte 2
+  
+  ### Bloco 31: MasterClass - VPS, CI/CD<br>
+  
+  ### Bloco 32: Projeto App de Delivery<br>
+  
+</details>
+
+<details>
+  <summary>Ciência da Computação</summary>
+  
+  ### Bloco 33: Introdução à Python<br>
+  - [ ] Aprendendo Python
+  - [ ] Entrada e Saída de Dados
+  - [ ] Testes
+  
+  ### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto<br>
+  - [ ] Introdução à programação orientada a objetos
+  - [ ] Herança, Composição e Interfaces
+  - [ ] Padrões de projeto
+  
+  ### Bloco 35: Redes e Raspagem de Dados<br>
+  - [ ] Arquitetura de redes
+  - [ ] Redes de computadores, ferramentas e segurança
+  - [ ] Raspagem de Dados
+  
+  ### Bloco 36: Algoritmos<br>
+  - [ ] Complexidade de Algoritmos
+  - [ ] Recursividade e Estratégias para solução de problemas
+  - [ ] Algoritmos de ordenação e busca
+  
+  ### Bloco 37: Estrutura de Dados I - Arrays, Hashmaps e Sets<br>
+  - [ ] Arquitetura de Computadores
+  - [ ] Arrays
+  - [ ] Hashmap e Dict
+  - [ ] Set
+  
+  ### Bloco 38: Estrutura de Dados II - Listas, Filas e Pilhas<br>
+  - [ ] Nó e Listas Encadeadas
+  - [ ] Pilhas e Filas
   
 </details>
