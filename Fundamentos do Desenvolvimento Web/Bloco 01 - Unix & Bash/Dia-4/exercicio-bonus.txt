@@ -1,0 +1,2 @@
+1. Abra o terminal e execute o comando sudo apt-get install cmatrix. Depois, execute o comando cmatrix. Quando estiver se sentindo como o Neo, aperte ctrl+c para voltar ao terminal
+
