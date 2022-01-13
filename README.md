@@ -24,7 +24,7 @@ Trybe is a web development school that has a genuine commitment to the professio
   ### Bloco 02: Git, GitHub e Internet<br>
   
   ### Bloco 03: Introdução à HTML e CSS
-  - [ ] Introdução - HTML & CSS <br>
+  - [x] Introdução - HTML & CSS <br>
   - [ ] HTML & CSS - Estruturas de página<br>
   - [ ] HTML & CSS - Primeiros passos em CSS<br>
   - [ ] HTML & CSS - Seletores e posicionamento<br>
