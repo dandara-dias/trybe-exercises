@@ -13,3 +13,7 @@ Neste exercício aprendemos sobre seletores CSS que modificam as propriedades do
 <p align="center">
   <img src="propriedades-de-texto-no-css.png" width="350px">
 </p>
+
+# Exercício CSS Inline e Externo
+
+Neste exercício aprendemos outras formas de adicionar o CSS nas páginas web, colocando todo o CSS criado nos exercícios anteriores em um arquivo externo .css
