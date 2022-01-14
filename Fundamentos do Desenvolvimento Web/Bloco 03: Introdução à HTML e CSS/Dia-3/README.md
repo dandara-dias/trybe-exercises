@@ -29,3 +29,11 @@ Neste exercício não atribuimos nenhuma classe ou id aos componentes, apenas tr
 <p align="center">
   <img src="pseudoclasses.png" width="350px">
 </p>
+
+# Exercício Combinações e Classes Descendentes
+
+Neste exercício vimos melhor como utilizar a descendência para aplicar estilizações à elementos específicos, como por exemplo elementos pares e ímpares de uma lista ou estilizar apenas elementos em itálico.
+
+<p align="center">
+  <img src="combinacoes-e-classes-descendentes.png" width="350px">
+</p>
