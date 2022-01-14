@@ -40,3 +40,27 @@ ul.linguagens li:nth-of-type(3){
     color: blue;
     background-color: pink;
 }
+
+#aliados li a:hover {
+    font-weight: 700;
+}
+
+#aliados li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+    color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+    color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+    color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+    color: green;
+}
