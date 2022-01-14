@@ -21,3 +21,11 @@ Neste exercício treinamos como agrupar seletores para estilizar a página com m
 <p align="center">
   <img src="seletores.png" width="350px">
 </p>
+
+# Exercício Pseudoclasses
+
+Neste exercício não atribuimos nenhuma classe ou id aos componentes, apenas treinamos a utilização de pseudoclasses para estilizá-los, mudando as cores, a fonte, e adicionando uma borda ao passar o cursor por cima.
+
+<p align="center">
+  <img src="pseudoclasses.png" width="350px">
+</p>
