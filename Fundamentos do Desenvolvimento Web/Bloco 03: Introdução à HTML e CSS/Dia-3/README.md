@@ -13,3 +13,11 @@ Neste exercício treinamos como manipular o posicionamento de elementos HTML uti
 <p align="center">
   <img src="posicionamento-de-elementos.png" width="350px">
 </p>
+
+# Exercício Agrupamento de Seletores
+
+Neste exercício treinamos como agrupar seletores para estilizar a página com mais praticidade, implementando funcionalidades diferentes como alterar propriedades de várias tags de uma só vez, mudar a cor de fundo ao passar o cursor sobre um item e mudar a fonte e a cor ao clicar em um link.
+
+<p align="center">
+  <img src="seletores.png" width="350px">
+</p>
