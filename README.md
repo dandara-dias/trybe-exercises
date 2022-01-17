@@ -28,7 +28,7 @@ Trybe is a web development school that has a genuine commitment to the professio
   - [x] HTML & CSS - Estruturas de página
   - [x] HTML & CSS - Primeiros passos em CSS
   - [x] HTML & CSS - Seletores e posicionamento
-  - [ ] HTML Semântico<br>
+  - [x] HTML Semântico
 
   ### Bloco 04: Introdução à JavaScript e Lógica de Programação
   - [ ] Introdução - JavaScript <br>
