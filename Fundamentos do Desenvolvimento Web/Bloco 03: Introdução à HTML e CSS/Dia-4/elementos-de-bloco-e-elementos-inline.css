@@ -8,7 +8,7 @@ h1 {
     height: 50px;
     text-align: center;
     width: 200px;
-    margin-left: 525px;
+    margin: 0 auto;
 }
 
 .second {
@@ -17,8 +17,7 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    float: left;
-    margin-left: 335px;
+    display: inline-block;
 }
 
 .third {
@@ -27,27 +26,17 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
-    margin-left: 640px;
-}
-
-ul{
-    list-style-type: none;
     display: inline-block;
 }
 
-h3{
+ul {
+    list-style: none;
+}
+
+#rewards {
     text-align: center;
 }
 
-ul.prizes li{
-    text-align: center;
+#rewards ul li {
     display: inline;
-    
-}
-
-.primeiro{
-    margin-left: 325px;   
-}
-.segundo{
-    margin-right: 325px;
 }
