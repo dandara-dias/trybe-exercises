@@ -9,11 +9,32 @@ nav{
     border-style: groove;
     display: inline-block;
     margin: 20px;
+    margin-left: 100px;
 }
 
-ul li{
+ul li {
     display: inline-block;
     width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: royalblue;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+a:active {
+    color: darkcyan;
 }
 
 h1{
@@ -21,7 +42,7 @@ h1{
 }
 
 article{
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 table tr td{
@@ -50,6 +71,7 @@ aside{
     margin-left: 850px;
     border-style: groove;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 footer{
