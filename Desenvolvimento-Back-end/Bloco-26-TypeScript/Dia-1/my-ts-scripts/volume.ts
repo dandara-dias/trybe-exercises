@@ -20,7 +20,7 @@ function exec() {
 
   const result = convert(value, base, convertion);
 
-  console.log(`${value} ${units[from]} é igual a ${result}${units[to]}`);
+  console.log(`${value}${units[from]} é igual a ${result}${units[to]}`);
 }
 
 exec();
