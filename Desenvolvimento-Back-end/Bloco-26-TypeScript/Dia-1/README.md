@@ -7,6 +7,7 @@ No exercício 2, convertemos unidades de medidas de massa, no arquivo mass.ts <b
 No exercício 3, convertemos unidades de medidas de volume (em litros), no arquivo capacity.ts <br>
 No exercício 4, convertemos unidades de medidas de área, no arquivo area.ts <br>
 No exercício 5, convertemos unidades de medidas de volume (em metros cúbicos), no arquivo volume.ts <br>
+No exercício 7, transformamos os scripts de conversão para receberem inputs do usuário e exibir o resultado da conversão
 
 OBS.: Antes de começar, foi requisitado que os exercícios fossem realizados dentro da pasta my-ts-scripts.
 
