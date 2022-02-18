@@ -1,8 +1,8 @@
 enum seasons {
-  primavera = 'spring',
-  verão = 'summer',
-  outono = 'fall',
-  inverno = 'winter',
+  spring = 'spring',
+  summer = 'summer',
+  fall = 'fall',
+  winter = 'winter',
 }
 
 export default seasons;
