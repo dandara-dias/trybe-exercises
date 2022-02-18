@@ -40,3 +40,42 @@ Object.entries(chosenHemisphereSeasons).map((entry) => {
 
   if(Month.includes(month)) console.log(season);
 });
+
+
+import Car from "./Car";
+import Colors from "./Colors";
+import Doors from "./Doors";
+import Directions from "./Directions";
+
+const gol = new Car('Volkswagen', Colors.silver, 4);
+
+gol.openTheDoor(Doors.driver); // Ele então entra em seu volkswagen gol prata de 4 portas
+gol.closeTheDoor(Doors.driver);
+gol.turnOn(); // liga seu carro e começa o trajeto
+gol.speedUp(); // Siga em frente;
+gol.speedDown(); // Em 600 metros vire a esquerda;
+gol.turn(Directions.left); // Vire a esquerda;
+gol.speedUp();
+gol.speedDown();
+gol.turn(Directions.right); // Em 200 metros na rotatória pegue a segunda saída a direita;
+gol.speedUp(); // Mantenha em frente pelos próximos 1,2 quilômetros;
+gol.speedDown(); // Em 300 metros vire a direita;
+gol.turn(Directions.right); // Vire a direita;
+gol.speedDown(); // Em 400 metros você chegará ao seu destino;
+gol.stop(); // Você chegou ao seu destino.
+gol.openTheDoor(Doors.behind_ride); // a pessoa passageira entra pela porta de trás do lado do carona
+gol.closeTheDoor(Doors.behind_ride);
+gol.speedUp(); // Siga em frente;
+gol.speedDown(); // Em 300 metros vire a direita;
+gol.turn(Directions.right); // Vire a direita;
+gol.speedUp(); // Mantenha em frente pelos próximos 2 quilômetros;
+gol.speedDown(); // Em 200 metros vire a esquerda;
+gol.turn(Directions.left); // Vire a esquerda;
+gol.speedUp();
+gol.speedDown(); // Em 400 metros vire a direita;
+gol.turn(Directions.right); // Vire a direita;
+gol.speedDown(); // Em 100 metros você chegará ao destino.
+gol.stop(); // Você chegou ao destino.
+gol.openTheDoor(Doors.behind_ride); // A pessoa passageira desce do veículo
+gol.closeTheDoor(Doors.behind_ride);
+gol.speedUp(); //  a pessoa motorista segue para a próxima corrida.
