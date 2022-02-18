@@ -2,4 +2,5 @@
 
 Nestes exercícios, pudemos treinar melhor os conceitos de tipagem estática e generics. <br>
 
-No exercício 1, criamos um enum que representa os meses do ano, no arquivo months.ts
+No exercício 1, criamos uma enum que representa os meses do ano, no arquivo months.ts <br>
+No exercício 2, criamos uma enum que representa as estações climáticas do ano, no arquivo seasons.ts
