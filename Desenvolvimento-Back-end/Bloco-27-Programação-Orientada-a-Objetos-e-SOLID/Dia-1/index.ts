@@ -50,9 +50,28 @@ class Student {
 
     this._notasTrabalho = value;
   }
+
+  notasSum(): number {
+    return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) => {
+      grade += previousGrade;
+      return grade;
+    }, 0);
+  }
+
+  notasAverage(): number {
+    const sumGrades = this.notasSum();
+    const divider = this.notasProva.length + this.notasTrabalho.length;
+
+    return Math.round(sumGrades / divider);
+  }
 }
 
 const student1 = new Student('202201', 'Maria da Silva');
-console.log(student1);
 const student2 = new Student('202202', 'João da Silva');
 console.log(student2);
+
+student1.notasProva = [25, 20, 23, 23];
+student1.notasTrabalho = [45, 45];
+console.log(student1);
+console.log('Soma de todas as notas: ', student1.notasSum());
+console.log('Média de todas as notas: ', student1.notasAverage());
