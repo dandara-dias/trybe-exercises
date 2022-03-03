@@ -122,6 +122,15 @@ class Order {
     set discount(value) {
         this._discount = value;
     }
+    totalOrder() {
+        return this.items.reduce((previousPrice, item) => {
+            const total = previousPrice += item.price;
+            return total;
+        }, 0);
+    }
+    discountOrder() {
+        return this.totalOrder() * (1 - this.discount);
+    }
 }
 const client1 = new Client('João');
 const item1 = new OrderItem('Sanduíche Natural', 5.00);
@@ -129,3 +138,5 @@ const item2 = new OrderItem('Suco de Abacaxi', 5.00);
 const item3 = new OrderItem('Gelatina de Uva', 2.50);
 const order1 = new Order(client1, [item1, item2, item3], 'dinheiro', 0.10);
 console.log(order1);
+console.log('Total do pedido: ', order1.totalOrder());
+console.log('Pedido com desconto: ', order1.discountOrder());
