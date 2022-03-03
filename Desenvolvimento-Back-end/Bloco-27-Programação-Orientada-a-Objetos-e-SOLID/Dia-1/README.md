@@ -6,4 +6,5 @@ No exercício 1, modelamos algumas partes de um software de uma escola, criando 
 No exercício 2, adicionamos à classe um método para calcular a soma das notas e outro para calcular a média das notas. <br>
 No exercício 3, modelamos um sistema de vendas de uma lanchonete, criando uma classe que represente o cliente, outra que represente o item pedido, e uma que represente o pedido. <br>
 No exercício 4, adicionamos à classe de pedidos um método para calcular o preço total e outro para calcular o preço com desconto. <br>
-No exercício 5, criamos uma classe que representa uma data.
+No exercício 5, criamos uma classe que representa uma data. <br>
+No exercício 6, adicionamos à data uma verificação de data válida, um método que retorna o mês por extenso, uma verificação de ano bissexto, um método que compara duas datas e um método que retorna a data formatada.
