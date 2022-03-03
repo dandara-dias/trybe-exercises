@@ -193,6 +193,14 @@ class Data {
   private _year: number;
 
   constructor(d: number, m: number, y: number) {
+    const date = `${y}-${m}-${d}`;
+
+    if (!this.validateDate(d, m, y)) {
+      d = 1;
+      m = 1;
+      y = 1900;
+    }
+
     this._day = d;
     this._month = m;
     this._year = y;
@@ -221,7 +229,96 @@ class Data {
   set year(value: number) {
     this._year = value;
   }
+
+  private validateDate(d: number, m: number, y: number): boolean {
+    const date = `${y}-${m}-${d}`;
+
+    if (new Date(date).getDate() !== d)
+      return false;
+    return true;
+  }
+
+  getMonthName(): string {
+    const months = [
+      'january',
+      'february',
+      'march',
+      'april',
+      'may',
+      'june',
+      'july',
+      'august',
+      'september',
+      'october',
+      'november',
+      'december',
+    ];
+
+    return months[this.month - 1];
+  }
+
+  isLeapYear(): boolean {
+    return this._year % 4 === 0;
+  }
+
+  compare(date: Data): number {
+    const currentDate = `${this.year}-${this.month}-${this.day}`;
+    const otherDate = `${date.year}-${date.month}-${date.day}`;
+
+    if (new Date(currentDate) > new Date(otherDate)) return 1;
+    if (new Date(currentDate) < new Date(otherDate)) return -1;
+
+    return 0;
+  }
+
+  format(formatting: string): string {
+    const conditions: boolean[] = [
+      (!formatting.match(/a{2,4}/g)), // verifica se possui o ano na formatação
+      (!formatting.match(/m{2}/g) && !formatting.match(/M{1}/g)), // verifica se tem o mês na formatação
+      (!formatting.match(/d{2}/g)) // verifica se tem o dia na formatação
+    ];
+
+    if (conditions.every(cond => cond)) {
+      throw new Error(`O formato passado é inválido: ${formatting}`);
+    }
+
+    const day = this.day > 9 ? this.day.toString() : `0${this.day.toString()}`;
+    const month = this.month > 9 ? this.month.toString() : `0${this.month.toString()}`;
+    const year = this.year.toString();
+
+    const dateFormatting = formatting
+      .replace('dd', day)
+      .replace('mm', month)
+      .replace('M', this.getMonthName())
+      .replace('aaaa', year)
+      .replace('aa', year.substr(-2));
+
+    return dateFormatting;
+  }
 }
 
 const date1 = new Data(3, 3, 2022);
+
 console.log(date1);
+console.log('Dia: ', date1.day);
+console.log('Mês: ', date1.month);
+console.log('Mês por extenso: ', date1.getMonthName());
+console.log('Ano: ', date1.year);
+console.log('É bissexto? ', date1.isLeapYear() ? 'Sim' : 'Não');
+console.log(date1.format('dd/mm/aaaa'));
+console.log(date1.format('dd-mm-aaaa'));
+console.log(date1.format('aaaa/mm/dd'));
+console.log(date1.format('aaaa-mm-dd'));
+console.log(date1.format('dd de M de aa'));
+console.log(date1.format('dd, M de aaaa'));
+
+const otherDate = new Data(19, 3, 2002);
+const comparing = date1.compare(otherDate);
+const compareStates = ['anterior', 'igual', 'posterior'];
+
+console.log(`A primeira data é ${compareStates[comparing + 1]} a segunda.`);
+
+const invalidDate = new Data(31, 2, 2021);
+console.log('Teste data inválida: ', invalidDate);
+
+console.log('Teste formato inválido: ', invalidDate.format('a m d'));
