@@ -42,12 +42,27 @@
 // console.log(testInterfaceEmployee);
 // console.log(testInterfaceEmployee.generateRegistration());
 
+// import Subject from "./Subject";
+
+// const subject1 = new Subject('Matemática');
+// const subject2 = new Subject('História');
+// const subject3 = new Subject('Filosofia');
+
+// console.log(subject1);
+// console.log(subject2);
+// console.log(subject3);
+
 import Subject from "./Subject";
+import Teacher from "./Teacher";
 
 const subject1 = new Subject('Matemática');
 const subject2 = new Subject('História');
 const subject3 = new Subject('Filosofia');
 
-console.log(subject1);
-console.log(subject2);
-console.log(subject3);
+const teacher1 = new Teacher('Professor Um', new Date('1980/03/30'), 2000, subject1);
+const teacher2 = new Teacher('Professor Dois', new Date('1982/04/21'), 2000, subject2);
+const teacher3 = new Teacher('Professor Três', new Date('1986/01/29'), 2000, subject3);
+
+console.log(teacher1);
+console.log(teacher2);
+console.log(teacher3);
