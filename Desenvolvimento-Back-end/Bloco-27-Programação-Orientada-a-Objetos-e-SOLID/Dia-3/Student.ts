@@ -1,14 +1,15 @@
 import Person from "./Person";
 import Enrollable from "./Enrollable";
+import EvaluationResult from "./EvaluationResult";
 
 export default class Student extends Person implements Enrollable {
   private _matricula: string = String();
-  private _notasProva: number[] = [];
-  private _notasTrabalho: number[] = [];
+  private _evaluationResults: EvaluationResult[];
 
   constructor(name: string, birthDate: Date) {
     super(name, birthDate);
     this.matricula = this.geraMatricula();
+    this._evaluationResults = [];
   }
 
   get matricula(): string {
@@ -23,38 +24,18 @@ export default class Student extends Person implements Enrollable {
     this._matricula = value;
   }
 
-  get notasProva(): number[] {
-    return this._notasProva;
-  }
-
-  set notasProva(value: number[]) {
-    if (value.length > 4) {
-      throw new Error('A pessoa estudante só pode possuir 4 notas de provas');
-    }
-
-    this._notasProva = value;
-  }
-
-  get notasTrabalho(): number[] {
-    return this._notasTrabalho;
-  }
-
-  set notasTrabalho(value: number[]) {
-    if (value.length > 2) {
-      throw new Error('A pessoa estudante só pode possuir 2 notas de trabalhos');
-    }
-
-    this._notasTrabalho = value;
+  get evaluationResults(): EvaluationResult[] {
+    return this._evaluationResults;
   }
 
   notasSum(): number {
-    return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) =>
+    return [...EvaluationResult.arguments].reduce((previousGrade, grade) =>
       grade + previousGrade, 0);
   }
 
   notasAverage(): number {
     const sumGrades = this.notasSum();
-    const divider = this.notasProva.length + this.notasTrabalho.length;
+    const divider = this._evaluationResults.length;
 
     return Math.round(sumGrades / divider);
   }
@@ -63,5 +44,9 @@ export default class Student extends Person implements Enrollable {
     const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
 
     return `STU${randomStr}`;
+  }
+
+  addEvaluationResult(value: EvaluationResult): void {
+    this._evaluationResults.push(value);
   }
 }

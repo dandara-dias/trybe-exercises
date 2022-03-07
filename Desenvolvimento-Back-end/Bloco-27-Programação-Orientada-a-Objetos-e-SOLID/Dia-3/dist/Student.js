@@ -4,13 +4,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Person_1 = __importDefault(require("./Person"));
+const EvaluationResult_1 = __importDefault(require("./EvaluationResult"));
 class Student extends Person_1.default {
     constructor(name, birthDate) {
         super(name, birthDate);
         this._matricula = String();
-        this._notasProva = [];
-        this._notasTrabalho = [];
         this.matricula = this.geraMatricula();
+        this._evaluationResults = [];
     }
     get matricula() {
         return this._matricula;
@@ -21,35 +21,23 @@ class Student extends Person_1.default {
         }
         this._matricula = value;
     }
-    get notasProva() {
-        return this._notasProva;
-    }
-    set notasProva(value) {
-        if (value.length > 4) {
-            throw new Error('A pessoa estudante só pode possuir 4 notas de provas');
-        }
-        this._notasProva = value;
-    }
-    get notasTrabalho() {
-        return this._notasTrabalho;
-    }
-    set notasTrabalho(value) {
-        if (value.length > 2) {
-            throw new Error('A pessoa estudante só pode possuir 2 notas de trabalhos');
-        }
-        this._notasTrabalho = value;
+    get evaluationResults() {
+        return this._evaluationResults;
     }
     notasSum() {
-        return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) => grade + previousGrade, 0);
+        return [...EvaluationResult_1.default.arguments].reduce((previousGrade, grade) => grade + previousGrade, 0);
     }
     notasAverage() {
         const sumGrades = this.notasSum();
-        const divider = this.notasProva.length + this.notasTrabalho.length;
+        const divider = this._evaluationResults.length;
         return Math.round(sumGrades / divider);
     }
     geraMatricula() {
         const randomStr = String(Date.now() * (Math.random() + 1)).replace(/\W/g, '');
         return `STU${randomStr}`;
+    }
+    addEvaluationResult(value) {
+        this._evaluationResults.push(value);
     }
 }
 exports.default = Student;

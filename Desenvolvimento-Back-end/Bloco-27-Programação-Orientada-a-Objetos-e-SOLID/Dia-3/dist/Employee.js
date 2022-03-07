@@ -28,8 +28,8 @@ class Employee extends Person_1.default {
     set salary(value) {
         if (value < 0) {
             throw new Error('O salário não pode ser negativo.');
-            this._salary = value;
         }
+        this._salary = value;
     }
     get admissionDate() {
         return this._admissionDate;

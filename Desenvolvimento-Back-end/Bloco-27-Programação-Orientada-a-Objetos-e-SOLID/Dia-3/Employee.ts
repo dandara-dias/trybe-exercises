@@ -33,9 +33,8 @@ export default class Employee extends Person implements Enrollable {
   set salary(value: number) {
     if (value < 0) {
       throw new Error('O salário não pode ser negativo.');
-
-      this._salary = value;
     }
+    this._salary = value;
   }
 
   get admissionDate(): Date {
