@@ -1,6 +1,7 @@
 import Person from "./Person";
+import Enrollable from "./Enrollable";
 
-export default class Student extends Person {
+export default class Student extends Person implements Enrollable {
   private _matricula: string = String();
   private _notasProva: number[] = [];
   private _notasTrabalho: number[] = [];
@@ -47,10 +48,8 @@ export default class Student extends Person {
   }
 
   notasSum(): number {
-    return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) => {
-      grade += previousGrade;
-      return grade;
-    }, 0);
+    return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) =>
+      grade + previousGrade, 0);
   }
 
   notasAverage(): number {

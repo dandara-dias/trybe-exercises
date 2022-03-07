@@ -40,10 +40,7 @@ class Student extends Person_1.default {
         this._notasTrabalho = value;
     }
     notasSum() {
-        return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) => {
-            grade += previousGrade;
-            return grade;
-        }, 0);
+        return [...this.notasProva, ...this.notasTrabalho].reduce((previousGrade, grade) => grade + previousGrade, 0);
     }
     notasAverage() {
         const sumGrades = this.notasSum();
